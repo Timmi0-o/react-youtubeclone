@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Общие стили для контейнера со скроллом */
+.scroll-container {
+	overflow-y: auto; /* Включение вертикального скролла */
+	max-height: 600px; /* Максимальная высота контейнера, чтобы активировать скролл */
+	padding-right: 16px; /* Добавление правого отступа для предотвращения перекрытия контента */
+}
+
+/* Стили для полосы прокрутки */
+::-webkit-scrollbar {
+	width: 9px; /* Ширина полосы прокрутки */
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #9c9c9c; /* Цвет полосы прокрутки */
+	border-radius: 6px; /* Закругленные углы полосы прокрутки */
+}
+
+::-webkit-scrollbar-track {
+	background-color: #000000; /* Цвет фона полосы прокрутки */
+}
+
+/* Опциональные стили для кнопки прокрутки вверх */
+.scroll-top-btn {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-color: #606060;
+	color: #ffffff;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+* {
+	font-family: Roboto;
+}

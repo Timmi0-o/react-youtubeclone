@@ -1,0 +1,7 @@
+.scrollBarHover::-webkit-scrollbar-thumb {
+	background-color: transparent;
+}
+
+.scrollBarHover:hover::-webkit-scrollbar-thumb {
+	background-color: #9c9c9c; /* Цвет полосы прокрутки */
+}

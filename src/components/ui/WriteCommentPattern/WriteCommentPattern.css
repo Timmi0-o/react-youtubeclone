@@ -1,0 +1,38 @@
+.inputColorAnimation {
+	border-bottom: 2px solid rgb(255, 255, 255);
+	animation: inputColorAnimation1 0.2s ease-in;
+}
+
+@keyframes inputColorAnimation1 {
+	from {
+		border-image: linear-gradient(
+			to left,
+			#000000,
+			#000000,
+			#000000,
+			#000000,
+			rgb(255, 255, 255),
+			#000000,
+			#000000,
+			#000000,
+			#000000
+		);
+		border-image-slice: 1;
+	}
+
+	to {
+		border-image: linear-gradient(
+			to left,
+			rgb(255, 255, 255),
+			rgb(255, 255, 255),
+			rgb(255, 255, 255),
+			rgb(255, 255, 255),
+			rgb(255, 255, 255),
+			rgb(255, 255, 255),
+			rgb(255, 255, 255),
+			rgb(255, 255, 255),
+			rgb(255, 255, 255)
+		);
+		border-image-slice: 1;
+	}
+}

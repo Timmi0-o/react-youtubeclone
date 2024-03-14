@@ -23,8 +23,9 @@ const basicSetting = [
 	},
 	{
 		img: '/public/svg/theme.svg',
-		title: 'Тема: как  на устройстве',
+		title: 'Тема: ',
 		arrow: 'true',
+		onclick: 'theme',
 	},
 	{
 		img: '/public/svg/language.svg',

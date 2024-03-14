@@ -2,40 +2,53 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Общие стили для контейнера со скроллом */
-.scroll-container {
-	overflow-y: auto; /* Включение вертикального скролла */
-	max-height: 600px; /* Максимальная высота контейнера, чтобы активировать скролл */
-	padding-right: 16px; /* Добавление правого отступа для предотвращения перекрытия контента */
-}
-
-/* Стили для полосы прокрутки */
-::-webkit-scrollbar {
-	width: 9px; /* Ширина полосы прокрутки */
-}
-
-::-webkit-scrollbar-thumb {
-	background-color: #9c9c9c; /* Цвет полосы прокрутки */
-	border-radius: 6px; /* Закругленные углы полосы прокрутки */
+* {
+	font-family: Roboto;
+	word-wrap: break-word;
+	box-sizing: border-box;
 }
 
 ::-webkit-scrollbar-track {
-	background-color: #000000; /* Цвет фона полосы прокрутки */
+	background-color: #000000;
 }
 
-/* Опциональные стили для кнопки прокрутки вверх */
-.scroll-top-btn {
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	background-color: #606060;
-	color: #ffffff;
-	padding: 10px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
+::-webkit-scrollbar {
+	width: 14px;
 }
 
-* {
-	font-family: Roboto;
+::-webkit-scrollbar-thumb {
+	background-color: #9c9c9c;
+}
+
+textarea {
+	height: auto;
+	min-height: 22px;
+	max-height: auto;
+	overflow-y: hidden;
+}
+
+.borderAnimateStart {
+	animation: borderMoveStart 0.5s ease-out;
+}
+
+.borderAnimateEnd {
+	animation: borderMoveEnd 0.5s ease-out;
+}
+
+@keyframes borderMoveStart {
+	from {
+		box-shadow: 0 0 0 1px #676767;
+	}
+	to {
+		box-shadow: 0 0 0 1px transparent;
+	}
+}
+
+@keyframes borderMoveEnd {
+	from {
+		box-shadow: 0 0 0 1px #676767;
+	}
+	to {
+		box-shadow: 0 0 0 1px transparent;
+	}
 }

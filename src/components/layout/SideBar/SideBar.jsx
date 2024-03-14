@@ -1,7 +1,12 @@
-import { useState } from 'react'
+/* eslint-disable no-mixed-spaces-and-tabs */
+import { useLayoutEffect, useState } from 'react'
+import { useDispatch, useSelector } from 'react-redux'
+import { Link, useLocation } from 'react-router-dom'
+import { showAndHideMiniSideBar } from '../../../redux/sideBar/actionCreators'
+import { borderAnimateStart } from '../../../utils/BorderAnimate'
 import './SideBar.css'
 import {
-	OtherPossibl,
+	OtherPossible,
 	SettingComplaint,
 	SideBarClsLinks,
 	aboutTheService,
@@ -12,11 +17,12 @@ import {
 	youAndMyChanelLinks,
 } from './SideBarLinks'
 
-const SideBar = ({ showSideBar }) => {
-	const [unwrap, setUnwrap] = useState(false)
+const SideBar = () => {
+	const dispatch = useDispatch()
+	const location = useLocation()
 
+	const [unwrap, setUnwrap] = useState(false)
 	const showUnwrap = () => {
-		console.log(unwrap)
 		if (unwrap) {
 			setUnwrap(false)
 		} else {
@@ -25,9 +31,7 @@ const SideBar = ({ showSideBar }) => {
 	}
 
 	const [subUnwrap, setSubUnwrap] = useState(false)
-
 	const showSubUnwrap = () => {
-		console.log(unwrap)
 		if (subUnwrap) {
 			setSubUnwrap(false)
 		} else {
@@ -35,22 +39,43 @@ const SideBar = ({ showSideBar }) => {
 		}
 	}
 
+	useLayoutEffect(() => {
+		dispatch(showAndHideMiniSideBar(location))
+	}, [location.pathname])
+
+	const showSideBar = useSelector((state) => state.sideBar.sideBar)
+	const showMiniSideBar = useSelector((state) => state.sideBar.miniSideBar)
+
+	const [selectedCard, setSelectedCard] = useState(null)
+
+	const handleCardClick = (index) => {
+		setSelectedCard(index)
+	}
+
 	return (
 		<>
 			{showSideBar ? (
 				// Секция со всеми пунктами с сайд баре
-				<div className='scrollBarHover fixed overflow-auto w-[240px] h-[100%] h-min-[889px] pb-[50px] mt-[56px] bg-black text-white hover:scroll-[#ffff]'>
+				<div className='scrollBarHover fixed pt-[6px] overflow-auto w-[240px] h-[100%] h-min-[889px] pb-[50px] mt-[56px] bg-black text-white z-[100] '>
 					{/* Раздел с вкладками главная, шортсы и подписки */}
 					<div className='px-[4px] pt-[6px]'>
 						<div className='w-[204px] border-solid border-[#383838] border-b-[1px] pb-[12px] ml-[10px]'>
 							{homeAndShortsAndSubsLinks.map((link) => (
-								<div
-									className='flex items-center justify-start w-[204px] h-[40px] rounded-[10px] gap-[24px] pl-[10px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e]'
+								<Link
+									onClick={() => handleCardClick(link.title)}
 									key={link.title}
+									to={link.page}
 								>
-									<img className='size-[24px]' src={link.img} alt='' />
-									<p className='text-[14px] mt-[-2px]'>{link.title}</p>
-								</div>
+									<div
+										className={
+											'flex items-center justify-start w-[204px] h-[40px] rounded-[10px] gap-[24px] pl-[10px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e] ' +
+											(selectedCard === link.title ? borderAnimateStart : '')
+										}
+									>
+										<img className='size-[24px]' src={link.img} alt='' />
+										<p className='text-[14px] mt-[-2px]'>{link.title}</p>
+									</div>
+								</Link>
 							))}
 						</div>
 					</div>
@@ -66,13 +91,21 @@ const SideBar = ({ showSideBar }) => {
 									? youAndMyChanelLinks
 									: youAndMyChanelLinks.slice(0, -2)
 								).map((link) => (
-									<div
-										className='flex items-center justify-start w-[204px] h-[40px] rounded-[10px] gap-[24px] pl-[10px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e]'
+									<Link
+										onClick={() => handleCardClick(link.title)}
 										key={link.title}
+										to={link.page}
 									>
-										<img className='size-[24px]' src={link.img} alt='' />
-										<p className='text-[14px] mt-[-2px]'>{link.title}</p>
-									</div>
+										<div
+											className={
+												'flex items-center justify-start w-[204px] h-[40px] rounded-[10px] gap-[24px] pl-[10px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e] ' +
+												(selectedCard === link.title ? borderAnimateStart : '')
+											}
+										>
+											<img className='size-[24px]' src={link.img} alt='' />
+											<p className='text-[14px] mt-[-2px]'>{link.title}</p>
+										</div>
+									</Link>
 								))}
 							</div>
 							<div
@@ -101,15 +134,27 @@ const SideBar = ({ showSideBar }) => {
 						<div className='w-[204px] border-solid border-[#383838] border-b-[1px] pb-[12px] ml-[10px]'>
 							{(subUnwrap ? mySubsLinks : mySubsLinks.slice(0, 7)).map(
 								(link) => (
-									<div
-										className='flex items-center justify-start w-[204px] h-[40px] rounded-[10px] gap-[24px] pl-[10px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e]'
+									<Link
+										onClick={() => handleCardClick(link.title)}
 										key={link.title}
+										to={link.page}
 									>
-										<div className='size=[24px] bg-[#7e7e7e] rounded-[50px]'>
-											<p className='text-[#7e7e7e]'>img</p>
+										<div
+											className={
+												'flex items-center justify-start w-[204px] h-[40px] rounded-[10px] gap-[30px] pl-[10px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e] ' +
+												(selectedCard === link.title ? borderAnimateStart : '')
+											}
+										>
+											<img
+												className='size-[24px] rounded-[50%]'
+												src={link.img}
+												alt=''
+											/>
+											<span className='text-[14px] ml-[-6px]'>
+												{link.title}
+											</span>
 										</div>
-										<span className='text-[14px] ml-[-6px]'>{link.title}</span>
-									</div>
+									</Link>
 								)
 							)}
 							<div
@@ -145,13 +190,21 @@ const SideBar = ({ showSideBar }) => {
 						</div>
 						<div className='w-[204px] border-solid border-[#383838] border-b-[1px] pb-[12px] ml-[10px]'>
 							{navigatorContentLinks.map((link) => (
-								<div
-									className='flex items-center justify-start w-[204px] h-[40px] rounded-[10px] gap-[24px] pl-[10px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e]'
+								<Link
+									onClick={() => handleCardClick(link.title)}
 									key={link.title}
+									to={link.page}
 								>
-									<img className='size-[24px]' src={link.img} alt='' />
-									<p className='text-[14px] mt-[-2px]'>{link.title}</p>
-								</div>
+									<div
+										className={
+											'flex items-center justify-start w-[204px] h-[40px] rounded-[10px] gap-[24px] pl-[10px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e] ' +
+											(selectedCard === link.title ? borderAnimateStart : '')
+										}
+									>
+										<img className='size-[24px]' src={link.img} alt='' />
+										<p className='text-[14px] mt-[-2px]'>{link.title}</p>
+									</div>
+								</Link>
 							))}
 						</div>
 					</div>
@@ -162,14 +215,22 @@ const SideBar = ({ showSideBar }) => {
 							<p>Другие возможности</p>
 						</div>
 						<div className='w-[204px] border-solid border-[#383838] border-b-[1px] pb-[12px] ml-[10px]'>
-							{OtherPossibl.map((link) => (
-								<div
-									className='flex items-center justify-start w-[204px] h-[40px] rounded-[10px] gap-[24px] pl-[10px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e]'
+							{OtherPossible.map((link) => (
+								<Link
+									onClick={() => handleCardClick(link.title)}
 									key={link.title}
+									to={link.page}
 								>
-									<img className='size-[24px]' src={link.img} alt='' />
-									<p className='text-[14px] mt-[-2px]'>{link.title}</p>
-								</div>
+									<div
+										className={
+											'flex items-center justify-start w-[204px] h-[40px] rounded-[10px] gap-[24px] pl-[10px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e] ' +
+											(selectedCard === link.title ? borderAnimateStart : '')
+										}
+									>
+										<img className='size-[24px]' src={link.img} alt='' />
+										<p className='text-[14px] mt-[-2px]'>{link.title}</p>
+									</div>
+								</Link>
 							))}
 						</div>
 					</div>
@@ -178,13 +239,21 @@ const SideBar = ({ showSideBar }) => {
 					<div className='px-[4px] pt-[6px]'>
 						<div className='w-[204px] border-solid border-[#383838] border-b-[1px] pb-[12px] ml-[10px]'>
 							{SettingComplaint.map((link) => (
-								<div
-									className='flex items-center justify-start w-[204px] h-[40px] rounded-[10px] gap-[24px] pl-[10px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e]'
+								<Link
+									onClick={() => handleCardClick(link.title)}
 									key={link.title}
+									to={link.page}
 								>
-									<img className='size-[24px]' src={link.img} alt='' />
-									<p className='text-[14px] mt-[-2px]'>{link.title}</p>
-								</div>
+									<div
+										className={
+											'flex items-center justify-start w-[204px] h-[40px] rounded-[10px] gap-[24px] pl-[10px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e] ' +
+											(selectedCard === link.title ? borderAnimateStart : '')
+										}
+									>
+										<img className='size-[24px]' src={link.img} alt='' />
+										<p className='text-[14px] mt-[-2px]'>{link.title}</p>
+									</div>
+								</Link>
 							))}
 						</div>
 					</div>
@@ -192,24 +261,24 @@ const SideBar = ({ showSideBar }) => {
 					<div className='flex flex-wrap w-[240px] h-[107px] rounded-[10px] pt-[16px] px-[24px] pb-[12px]'>
 						{aboutTheService.map((link) => (
 							<>
-								<a
-									href={'#'}
+								<Link
+									to={'/*'}
 									className='text-[13px] mt-[-2px] text-[#afafaf] mr-[8px]'
 								>
 									{link}
-								</a>
+								</Link>
 							</>
 						))}
 					</div>
 					<div className='flex flex-wrap w-[240px] h-[107px] rounded-[10px] pt-[16px] px-[24px] pb-[12px]'>
 						{termUseConfidentiality.map((link) => (
 							<>
-								<a
-									href={'#'}
+								<Link
+									to={'/*'}
 									className='text-[13px] mt-[-2px] text-[#afafaf] mr-[8px]'
 								>
 									{link}
-								</a>
+								</Link>
 							</>
 						))}
 					</div>
@@ -218,17 +287,33 @@ const SideBar = ({ showSideBar }) => {
 					</div>
 				</div>
 			) : (
-				<div className='fixed w-[72px] h-min-[889px] h-[100%] bg-black text-white px-[4px] pt-[5px]  mt-[56px]'>
-					{SideBarClsLinks.map((links) => (
-						<div
-							className='flex items-center justify-center flex-col w-[64px] h-[74px] rounded-[10px] gap-[5px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e]'
-							key={links.title}
-						>
-							<img className='size-[24px]' src={links.img} alt='Главная фото' />
-							<span className='text-[10px]'>{links.title}</span>
+				<>
+					{showMiniSideBar && (
+						<div className='fixed left-0 w-[72px] h-min-[889px] h-[100%] bg-black text-white px-[4px] pt-[5px] mt-[56px]'>
+							{SideBarClsLinks.map((links) => (
+								<Link
+									onClick={() => handleCardClick(links.title)}
+									key={links.title}
+									to={links.page}
+								>
+									<div
+										className={
+											'flex items-center justify-center flex-col w-[64px] h-[74px] rounded-[10px] gap-[5px] hover:bg-[#2e2e2e] active:bg-[#3e3e3e] ' +
+											(selectedCard === links.title ? borderAnimateStart : '')
+										}
+									>
+										<img
+											className='size-[24px]'
+											src={links.img}
+											alt='Главная фото'
+										/>
+										<span className='text-[10px]'>{links.title}</span>
+									</div>
+								</Link>
+							))}
 						</div>
-					))}
-				</div>
+					)}
+				</>
 			)}
 		</>
 	)

@@ -1,21 +1,33 @@
-import { useRef } from 'react'
+import { useSelector } from 'react-redux'
 import FilterVideoDefault from '../FilterVideoDefault/FilterVideoDefault'
 import VideoItemCart from '../VideoItemCart/VideoItemCart'
 
-const MainSectionVideo = ({ showSideBar }) => {
-	const mainSectionMargin = useRef()
+const MainSectionVideo = () => {
+	const showSidebar = useSelector((state) => state.sideBar.sideBar)
+
+	const nameTheme = useSelector((state) => state.profileModal.nameTheme)
+	console.log('nameTheme', nameTheme)
 
 	return (
 		<div
 			className={
-				'flex flex-wrap bg-[#000000] pl-[72px] pt-[56px] overflow-x-hidden ' +
-				(showSideBar ? 'w-[95%] ml-[190px]' : 'w-[100%] ml-[30px]')
+				'pt-[56px] max-w-[2800px] ' +
+				(showSidebar ? 'pl-[260px] ' : 'pl-[94px] ') +
+				((nameTheme === 'Темная' || 'Как на устройстве') && ' bg-black ') +
+				(nameTheme === 'Светлая' && ' bg-white ')
 			}
-			ref={mainSectionMargin}
 		>
-			<FilterVideoDefault />
-			<div className='flex flex-wrap overflow-x-auto mt-[80px]'>
-				<VideoItemCart showSideBar={showSideBar} />
+			<div
+				className={
+					'fixed w-screen z-10 ' +
+					(nameTheme === 'Темная' && ' bg-black ') +
+					(nameTheme === 'Светлая' && ' bg-white ')
+				}
+			>
+				<FilterVideoDefault />
+			</div>
+			<div className='flex flex-wrap mt-[80px]'>
+				<VideoItemCart />
 			</div>
 		</div>
 	)

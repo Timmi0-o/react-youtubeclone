@@ -6,6 +6,8 @@ const recommendFilter = [
 	'Недавно опубликованные',
 	'Просмотрено',
 	'Новое для вас',
+	'Музыка',
+	'Прямые трансляции',
 ]
 
 export default recommendFilter

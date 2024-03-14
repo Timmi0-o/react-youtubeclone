@@ -1,10 +1,17 @@
+import { useSelector } from 'react-redux'
+import '../../../index.css'
 import { videoItem } from '../VideoItemCart/VideoItemCartLink'
 
-const AllowsVideo = ({ allowsVideo }) => {
+const AllowsVideo = () => {
+	const allowsVideo = useSelector((state) => state.header.allows)
 	return (
 		<>
 			{allowsVideo && (
-				<div className='fixed flex flex-col w-[489px] h-[642px] bg-[#282828] rounded-[12px] py-[6px]'>
+				<div
+					className={
+						'allowsScroll fixed flex flex-col w-[489px] h-[642px] bg-[#282828] rounded-[12px] py-[6px] '
+					}
+				>
 					<div className='flex items-center justify-between h-[49px] px-[15px] text-[#e6e6e6] pb-[5px] border-b-[1px] border-[#616161]'>
 						<p>Уведомления</p>
 						<div className='flex justify-center items-center size-[40px] 		hover:bg-[#5f5f5f] active:bg-[#7d7d7d] rounded-[50%] '>
@@ -19,7 +26,7 @@ const AllowsVideo = ({ allowsVideo }) => {
 						{videoItem.map((link) => (
 							<div
 								className='flex items-start w-[full] h-[auto] pt-[10px] mr-[16px]  mt-[16px] mb-[16px] hover:bg-[#3d3d3d] active:bg-[#4b4b4b] gap-[20px] '
-								key={link.title}
+								key={link.id}
 							>
 								<div className='flex items-center w-[70px]'>
 									<div className='size-[4px] mx-[6px] bg-[#37c3ff] rounded-[50%]' />

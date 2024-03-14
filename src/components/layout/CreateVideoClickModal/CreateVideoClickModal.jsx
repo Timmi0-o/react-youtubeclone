@@ -1,9 +1,11 @@
+import { useSelector } from 'react-redux'
 import createVideoLink from './CreateVideoClickModalLink'
 
-const CreateVideoClickModal = ({ createVideoFocus }) => {
+const CreateVideoClickModal = () => {
+	const showCreateVideoModal = useSelector((state) => state.header.createVideo)
 	return (
 		<>
-			{createVideoFocus && (
+			{showCreateVideoModal && (
 				<div className='fixed flex flex-col w-[230px] h-[auto] bg-[#282828] rounded-[15px] py-[6px]'>
 					{createVideoLink.map((link) => (
 						<div

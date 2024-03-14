@@ -1,5 +1,6 @@
 const videoItem = [
 	{
+		id: 1,
 		img: 'https://cdn.igromania.ru/mnt/news/c/d/9/4/2/0/85047/18d4a3549f06a94a_1920xH.jpg',
 		time: '14:20',
 		ava: 'https://shutniks.com/wp-content/uploads/2020/04/volk_na_avu_6_05185110.jpg',
@@ -7,8 +8,12 @@ const videoItem = [
 		user: 'David Wilson',
 		numberOfViews: '7 тыс',
 		releaseTime: '3 часа назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 2,
 		img: 'https://cybersport.metaratings.ru/storage/images/d2/0b/d20b0d35f3bc10e586a40b65885199e3.jpg',
 		time: '19:55',
 		ava: 'https://img3.akspic.ru/originals/0/3/7/9/4/149730-purpurnyjcvet-elektrik-verhnyayaodezhda-maska-purpur-1920x1080.jpg',
@@ -16,8 +21,12 @@ const videoItem = [
 		user: 'Sophia Taylor',
 		numberOfViews: '15 млн',
 		releaseTime: '2 дня назад',
+		description:
+			'Всем привет! С этого момента я перестаю делиться советами по фрилансу на этом канале и начинаю публиковать все новые рекомендации по удаленной работе на моем основном канале. Работайте удаленно с [основным каналом].',
+		hashTag: 'ХЗ че это',
 	},
 	{
+		id: 3,
 		img: 'https://i.pinimg.com/originals/c4/cd/26/c4cd26501ebe3b52c613d4395980b297.jpg',
 		time: '10:30',
 		ava: 'https://kartinki.pics/uploads/posts/2022-02/1644923012_19-kartinkin-net-p-kartinki-dlya-patsanov-21.jpg',
@@ -25,8 +34,12 @@ const videoItem = [
 		user: 'Matthew Miller',
 		numberOfViews: '9 тыс',
 		releaseTime: 'вчера',
+		description:
+			'Путеводитель в мире приключений! От тропических джунглей до заснеженных гор – наше видео познакомит вас с удивительными уголками нашей планеты. Готовы ли вы к неизведанным приключениям?"',
+		hashTag: 'Игры 2024',
 	},
 	{
+		id: 4,
 		img: 'https://games.mail.ru/hotbox/content_files/news/2022/07/28/0929e053a00e427ea3554a4945c9e4a4.jpg',
 		time: '17:40',
 		ava: 'https://starbiography.ru/wp-content/uploads/2021/06/1-1.jpg',
@@ -34,8 +47,12 @@ const videoItem = [
 		user: 'Olivia Davis',
 		numberOfViews: '6 тыс',
 		releaseTime: '4 часа назад',
+		description:
+			'Экстрим в каждом кадре! Погрузитесь в мир адреналина с захватывающими видеороликами об экстремальных видах спорта. Готовы ли вы к смелым приключениям?',
+		hashTag: 'Ну вот так вот да',
 	},
 	{
+		id: 5,
 		img: 'https://i.playground.ru/p/U1zNk40-QcC7xJXooJHS1Q.jpeg',
 		time: '22:15',
 		ava: 'https://www.hnldesign.nl/wp-content/uploads/2013/03/TheStig1.jpg',
@@ -43,8 +60,12 @@ const videoItem = [
 		user: 'Daniel White',
 		numberOfViews: '11 млн',
 		releaseTime: '1 неделю назад',
+		description:
+			'Искусство самовыражения: творческие подходы к развитию творческих навыков. От живописи до музыки – готовы ли вы обнаружить свой творческий потенциал?',
+		hashTag: 'Timmi в ютубе',
 	},
 	{
+		id: 6,
 		img: 'https://i.ytimg.com/vi/alwRjts-MtY/maxresdefault.jpg',
 		time: '13:05',
 		ava: 'https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666196261_6-mykaleidoscope-ru-p-oboi-s-kotikami-vkontakte-6.jpg',
@@ -52,8 +73,12 @@ const videoItem = [
 		user: 'Chloe Johnson',
 		numberOfViews: '4 тыс',
 		releaseTime: '3 часа назад',
+		description:
+			'Секреты здорового образа жизни: обзор лучших практик, диет и упражнений для поддержания активного и здорового образа жизни.',
+		hashTag: 'Без хештега типа',
 	},
 	{
+		id: 7,
 		img: 'https://virtus-img.cdnvideo.ru/images/og-jpg/plain/cf/cf2becb6-dae9-4b69-8caf-bcb6d4ae1f28.jpg',
 		time: '20:50',
 		ava: 'https://klike.net/uploads/posts/2022-08/1661172239_j-12.jpg',
@@ -61,8 +86,12 @@ const videoItem = [
 		user: 'James Brown',
 		numberOfViews: '14 млн',
 		releaseTime: '2 дня назад',
+		description:
+			'Искусство кинематографа: ретроспектива лучших фильмов и киноиндустрии. От классики до современности – готовы ли вы к кинематографическому путешествию?',
+		hashTag: 'Боже, да это лучшая работа',
 	},
 	{
+		id: 8,
 		img: 'https://avatars.mds.yandex.net/get-ydo/3927470/2a00000177b6aab4e32c2e54d2b925038b87/diploma',
 		time: '11:46',
 		ava: 'https://gas-kvas.com/grafic/uploads/posts/2023-10/1696422625_gas-kvas-com-p-kartinki-na-avu-31.jpg',
@@ -71,8 +100,12 @@ const videoItem = [
 		user: 'Elena Kovalenko',
 		numberOfViews: '10 млн',
 		releaseTime: '3 дня назад',
+		description:
+			'Лайфхаки и советы для повседневной жизни: упрощение задач, повышение продуктивности и экономия времени. Готовы ли вы к улучшению своей повседневной жизни?',
+		hashTag: 'Саморазвитие',
 	},
 	{
+		id: 9,
 		img: 'https://i.ytimg.com/vi/VinzXD-Ppm8/maxresdefault.jpg',
 		time: '09:21',
 		ava: 'https://coolsen.ru/wp-content/uploads/2021/06/6-4.jpg',
@@ -80,8 +113,12 @@ const videoItem = [
 		user: 'Sergey Nemchinskiy',
 		numberOfViews: '2 тыс',
 		releaseTime: '18 минут назад',
+		description:
+			'Приключения семейной жизни: советы по воспитанию, семейные истории и вдохновляющие моменты. Готовы ли вы к приключениям в мире семейных ценностей?',
+		hashTag: 'Знания',
 	},
 	{
+		id: 10,
 		img: 'https://tiniatov.ru/wp-content/uploads/9/1/5/915a8ac666dc346b3de72014ca978cfb.jpeg',
 		time: '06:58',
 		ava: 'https://klike.net/uploads/posts/2022-08/1661867820_j-51.jpg',
@@ -89,17 +126,25 @@ const videoItem = [
 		user: 'Wylsacom',
 		numberOfViews: '10 млн',
 		releaseTime: '4 часа назад',
+		description:
+			'Путешествие по истории искусства: от античности до современности. Познакомьтесь с великими произведениями искусства и их историей.',
+		hashTag: 'Искусство',
 	},
 
 	{
+		id: 11,
 		img: 'https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666190553_62-mykaleidoscope-ru-p-sinii-s-zelenim-vkontakte-71.jpg',
 		time: '19:24',
 		ava: 'https://i.pinimg.com/736x/29/b3/87/29b38765f1fa2503922a40159feaec1a.jpg',
 		videoName: 'Ну типа название',
 		numberOfViews: '2 тыс',
 		releaseTime: 'вчера',
+		description:
+			'В поисках приключений: путешествия в экзотические уголки планеты. Откройте для себя удивительные места и культуры.',
+		hashTag: 'Архитектура',
 	},
 	{
+		id: 12,
 		img: 'https://fonoteka.top/uploads/posts/2021-05/1620750299_7-phonoteka_org-p-fon-dlya-podpisi-na-forum-7.jpg',
 		time: '22:36',
 		ava: 'https://cojo.ru/wp-content/uploads/2022/12/avy-dlia-patsanov-25.webp',
@@ -107,8 +152,12 @@ const videoItem = [
 		user: 'Timmi',
 		numberOfViews: '100 млн',
 		releaseTime: '30 лет назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Домашниеживотные',
 	},
 	{
+		id: 13,
 		img: 'https://i.ytimg.com/vi/KjPeIP1MqBI/maxresdefault.jpg',
 		time: '5:21',
 		ava: 'https://img.goodfon.com/original/5616x3744/6/40/devushka-lico-ochki-oruzhie.jpg',
@@ -116,8 +165,12 @@ const videoItem = [
 		user: 'Andrei Smirnov',
 		numberOfViews: '2 тыс',
 		releaseTime: '3 месяца назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Животные',
 	},
 	{
+		id: 14,
 		img: 'https://pic.rutubelist.ru/video/9e/28/9e288ebee9a15d379101200b407181a3.jpg',
 		time: '09:53',
 		ava: 'https://sneg.top/uploads/posts/2023-06/1688064834_sneg-top-p-milie-avi-dlya-patsanov-krasivo-9.jpg',
@@ -126,9 +179,13 @@ const videoItem = [
 		user: 'Pavel Kozlov',
 		numberOfViews: '10 млн',
 		releaseTime: '3 дня назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Отношения',
 	},
 
 	{
+		id: 15,
 		img: 'https://superwalls.top/uploads/posts/2022-03/1648487304_70-gamerwall-pro-p-igrovoi-fon-dlya-prevyu-krasivie-74.jpg',
 		time: '18:14',
 		ava: 'https://cdn1.flamp.ru/08b0c74a717f0c6e42b2c17e4782d228.jpg',
@@ -136,8 +193,12 @@ const videoItem = [
 		user: 'Victor Ivanov',
 		numberOfViews: '2 тыс',
 		releaseTime: '14 лет назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Фотография',
 	},
 	{
+		id: 16,
 		img: 'https://fikiwiki.com/uploads/posts/2022-02/1644904114_37-fikiwiki-com-p-standoff-2-krasivie-kartinki-41.jpg',
 		time: '16:50',
 		ava: 'https://hdoboi.kiev.ua/images/05.Jun.2019-paren-v-protivogaze-4k.jpg',
@@ -145,8 +206,12 @@ const videoItem = [
 		user: 'Dmitry Kuznetsov',
 		numberOfViews: '10 млн',
 		releaseTime: '2 минуты назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Путешествия',
 	},
 	{
+		id: 17,
 		img: 'https://pic.rutubelist.ru/video/eb/06/eb06892fd5605a24a557ea5e8ea0e6f8.jpg',
 		time: '22:40',
 		ava: 'http://telecomdom.com/wp-content/uploads/2020/02/foto-na-avu-v-vk-dlya-patsanov-s-litsom-2-2048x1366.jpg',
@@ -154,8 +219,12 @@ const videoItem = [
 		user: 'Anna Ivanova',
 		numberOfViews: '2 тыс',
 		releaseTime: '4 часа назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Сериалы',
 	},
 	{
+		id: 18,
 		img: 'https://phonoteka.org/uploads/posts/2021-03/1616682329_26-p-krasivii-fon-dlya-prevyu-32.jpg',
 		time: '15:29',
 		ava: 'https://i.pinimg.com/originals/12/1a/92/121a92e5f6283c89df03e50bd140704d.jpg',
@@ -163,17 +232,25 @@ const videoItem = [
 		user: 'MORGENSHTERN',
 		numberOfViews: '10 млн',
 		releaseTime: '12 лет назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Обучение',
 	},
 
 	{
+		id: 19,
 		img: 'https://krot.info/uploads/posts/2021-02/1613650270_15-p-krasivii-fon-mainkraft-dlya-prevyu-15.jpg',
 		time: '22:40',
 		ava: 'https://a.d-cd.net/H8AAAgJgpuA-1920.jpg',
 		videoName: 'Моргенштерн надо',
 		numberOfViews: '2 тыс',
 		releaseTime: '15 сек назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Факты',
 	},
 	{
+		id: 20,
 		img: 'https://phonoteka.org/uploads/posts/2021-04/1618538696_12-phonoteka_org-p-krutoi-fon-dlya-prevyu-13.jpg',
 		time: '11:46',
 		ava: 'https://0225.ru/uploads/posts/2021-01/1611396861_foto-devushek-bez-lica-sekrety-krasivyh-foto-na-avu-foto-3.jpg',
@@ -181,16 +258,24 @@ const videoItem = [
 		user: 'Elena Kovalenko',
 		numberOfViews: '10 млн',
 		releaseTime: '3 дня назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Книги',
 	},
 	{
+		id: 21,
 		img: 'http://gamerwall.pro/uploads/posts/2022-03/1648487316_45-gamerwall-pro-p-igrovoi-fon-dlya-prevyu-krasivie-49.jpg',
 		time: '09:21',
 		ava: 'https://cdn1.flamp.ru/662b8544e49ca2c69446757c9c55ec15.jpg',
 		videoName: 'Че так много то ',
 		numberOfViews: '2 тыс',
 		releaseTime: '18 минут назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 22,
 		img: 'https://pic.rutubelist.ru/video/9b/05/9b055297c758aeae5ad51599a58bbb9c.jpg',
 		time: '06:58',
 		ava: 'https://cojo.ru/wp-content/uploads/2023/01/sergei-vorontsov-moskva-2.webp',
@@ -198,9 +283,13 @@ const videoItem = [
 		user: 'Wylsacom',
 		numberOfViews: '10 млн',
 		releaseTime: '4 часа назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 
 	{
+		id: 23,
 		img: 'https://abrakadabra.fun/uploads/posts/2022-01/1642477680_1-abrakadabra-fun-p-prevyu-mainkraft-pvp-3.jpg',
 		time: '19:24',
 		ava: 'https://mykaleidoscope.ru/uploads/posts/2022-06/1656445698_2-mykaleidoscope-ru-p-s-chernimi-volosami-devushka-krasivo-foto-3.jpg',
@@ -208,8 +297,12 @@ const videoItem = [
 		user: 'Mikhail Kuznetsov',
 		numberOfViews: '2 тыс',
 		releaseTime: 'вчера',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 24,
 		img: 'https://i.ytimg.com/vi/C3qH4BNbf0Q/maxresdefault.jpg?7857057827',
 		time: '22:36',
 		ava: 'https://telecomdom.com/wp-content/uploads/2020/02/foto-na-avu-v-vk-dlya-patsanov-s-litsom-6.jpg',
@@ -217,8 +310,12 @@ const videoItem = [
 		user: 'Timmi',
 		numberOfViews: '100 млн',
 		releaseTime: '30 лет назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 25,
 		img: 'https://catherineasquithgallery.com/uploads/posts/2021-02/1612217907_123-p-fioletovii-fon-gta-170.jpg',
 		time: '5:21',
 		ava: 'https://telecomdom.com/wp-content/uploads/2020/02/fto-na-avu-v-vk-dlya-devushek-bez-litsa-3.jpg',
@@ -227,8 +324,12 @@ const videoItem = [
 		user: 'Andrei Smirnov',
 		numberOfViews: '2 тыс',
 		releaseTime: '3 месяца назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 26,
 		img: 'https://million-wallpapers.ru/wallpapers/6/67/521175036214168/kartinka-parkur-na-balkon-na-tl-zaxodu-soncya.jpg',
 		time: '09:53',
 		ava: 'https://fikiwiki.com/uploads/posts/2022-02/1644875114_38-fikiwiki-com-p-krasivie-kartinki-dlya-vk-na-avu-41.jpg',
@@ -237,9 +338,13 @@ const videoItem = [
 		user: 'Pavel Kozlov',
 		numberOfViews: '10 млн',
 		releaseTime: '3 дня назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 
 	{
+		id: 27,
 		img: 'https://i.ytimg.com/vi/Pzgt-J67pIY/maxresdefault.jpg',
 		time: '18:14',
 		ava: 'http://coolsen.ru/wp-content/uploads/2021/06/54-3.jpg',
@@ -248,8 +353,12 @@ const videoItem = [
 		user: 'Victor Ivanov',
 		numberOfViews: '2 тыс',
 		releaseTime: '14 лет назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 28,
 		img: 'https://zone64.ru/wp-content/uploads/2023/03/sa.jpeg',
 		time: '16:50',
 		ava: 'https://android-obzor.com/wp-content/uploads/2022/03/zenit-foto-fotoapparat-retro-stil-plenka-devushka-ruki.jpg',
@@ -258,8 +367,12 @@ const videoItem = [
 		user: 'Dmitry Kuznetsov',
 		numberOfViews: '10 млн',
 		releaseTime: '2 минуты назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 29,
 		img: 'https://kalix.club/uploads/posts/2022-12/1671719326_kalix-club-p-fon-dlya-prevyu-pabg-vkontakte-33.jpg',
 		time: '22:40',
 		ava: 'https://interesnoewmire.ru/wp-content/uploads/250-foto-na-avu-dlja-devushek-0fa3bb7.jpg',
@@ -268,8 +381,12 @@ const videoItem = [
 		user: 'Anna Ivanova',
 		numberOfViews: '2 тыс',
 		releaseTime: '4 часа назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 30,
 		img: 'https://russia-dropshipping.ru/800/600/https/sun9-19.userapi.com/CI9G2gHNrqvVuJeEqDEkVtTtPvXjjucJjJ4_IQ/J5AdFwpu4Pw.jpg',
 		time: '15:29',
 		ava: 'https://gas-kvas.com/grafic/uploads/posts/2023-10/1696422623_gas-kvas-com-p-kartinki-na-avu-24.jpg',
@@ -278,9 +395,13 @@ const videoItem = [
 		user: 'MORGENSHTERN',
 		numberOfViews: '10 млн',
 		releaseTime: '12 лет назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 
 	{
+		id: 31,
 		img: 'https://kartinki.pics/uploads/posts/2021-04/thumbs/1617295507_40-p-fon-ks-go-dlya-prevyu-41.jpg',
 		time: '22:40',
 		ava: 'https://klike.net/uploads/posts/2023-02/1675751418_3-20.jpg',
@@ -289,8 +410,12 @@ const videoItem = [
 		user: 'Sergey Nemchinskiy',
 		numberOfViews: '2 тыс',
 		releaseTime: '15 сек назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 32,
 		img: 'https://games.mail.ru/hotbox/content_files/news/2022/07/28/0929e053a00e427ea3554a4945c9e4a4.jpg',
 		time: '08:15',
 		ava: 'https://www.zastavki.com/pictures/2560x1600/2011/People_Different_people_The_military_man_028158_.jpg',
@@ -298,8 +423,12 @@ const videoItem = [
 		user: 'John Doe',
 		numberOfViews: '5 тыс',
 		releaseTime: '2 дня назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 33,
 		img: 'https://zone64.ru/wp-content/uploads/2023/03/sa.jpeg',
 		time: '12:45',
 		ava: 'https://yt3.googleusercontent.com/l3RA78xrTJ1CmEzZjRAImN08nO5QKqK8xTtk_9TNj-P1p0TE38CFwpzBhcEByo1wWzh9q5RbZSw=s900-c-k-c0x00ffffff-no-rj',
@@ -307,8 +436,12 @@ const videoItem = [
 		user: 'Alice Johnson',
 		numberOfViews: '8 млн',
 		releaseTime: '5 часов назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 34,
 		img: 'https://avatars.dzeninfra.ru/get-zen_doc/2377661/pub_5eb7bd62046ed81479ddb434_5eb7c310d2c91417688d2dc0/scale_1200',
 		time: '15:30',
 		ava: 'https://funpick.ru/wp-content/uploads/2018/03/krut-kar-dlya-pats-6.jpg',
@@ -316,8 +449,12 @@ const videoItem = [
 		user: 'Bob Smith',
 		numberOfViews: '3 тыс',
 		releaseTime: 'вчера',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 35,
 		img: 'https://mail.9net.ru/uploads/posts/2019-08/1566477942_tenderli.jpg',
 		time: '21:10',
 		ava: 'https://wallbox.ru/wallpapers/main2/201732/1502385344598c94c1011c04.86328460.jpg',
@@ -325,8 +462,12 @@ const videoItem = [
 		user: 'Emma Brown',
 		numberOfViews: '12 млн',
 		releaseTime: '1 неделю назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 36,
 		img: 'https://schtirlitz.ru/800/600/https/moreklientov.com/wp-content/uploads/2018/02/%D0%9F%D1%80%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%B0-%D0%AE%D1%82%D1%83%D0%B1-9.png',
 		time: '09:25',
 		ava: 'https://zabavdom.ru/wp-content/uploads/2/a/7/2a79a3c979af26cb7a4f1a89cec18629.jpeg',
@@ -334,8 +475,12 @@ const videoItem = [
 		user: 'Amelia Taylor',
 		numberOfViews: '10 тыс',
 		releaseTime: 'вчера',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 37,
 		img: 'https://vsrap.ru/wp-content/uploads/2019/12/pewdiepie.jpg',
 		time: '16:20',
 		ava: 'https://i.yapx.cc/RFzQV.jpg',
@@ -343,8 +488,12 @@ const videoItem = [
 		user: 'Logan Davis',
 		numberOfViews: '8 тыс',
 		releaseTime: '5 часов назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 38,
 		img: 'https://i.playground.ru/p/YwIb9drQ6g-SJhgH3w2Jig.jpeg',
 		time: '21:30',
 		ava: 'https://klike.net/uploads/posts/2022-08/1661867842_j-96.jpg',
@@ -352,8 +501,12 @@ const videoItem = [
 		user: 'Ella Wilson',
 		numberOfViews: '12 млн',
 		releaseTime: '1 неделю назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 39,
 		img: 'https://static.life.ru/publications/2020/9/20/790206591784.3093.JPG',
 		time: '11:10',
 		ava: 'https://proprikol.ru/wp-content/uploads/2020/06/kartinki-dlya-stima-na-avu-10.jpg',
@@ -361,8 +514,12 @@ const videoItem = [
 		user: 'Jackson Miller',
 		numberOfViews: '7 тыс',
 		releaseTime: '3 часа назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 40,
 		img: 'https://i.ytimg.com/vi/BgYP6z4HeBA/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgWyhXMA8=&rs=AOn4CLAd_zSu4TpZ0v2J2mJgBK78bD81hA',
 		time: '18:45',
 		ava: 'https://img.razrisyika.ru/kart/86/1200/341354-klevye-8.jpg',
@@ -370,8 +527,12 @@ const videoItem = [
 		user: 'Scarlett Davis',
 		numberOfViews: '6 тыс',
 		releaseTime: '4 часа назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 41,
 		img: 'https://games.mail.ru/hotbox/content_files/news/2022/07/28/0929e053a00e427ea3554a4945c9e4a4.jpg',
 		time: '23:20',
 		ava: 'https://i.ytimg.com/vi/_fTA6lY7sKs/maxresdefault.jpg',
@@ -379,8 +540,12 @@ const videoItem = [
 		user: 'Mason White',
 		numberOfViews: '11 млн',
 		releaseTime: '1 неделю назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 42,
 		img: 'https://sneg.top/uploads/posts/2023-06/1687762327_sneg-top-p-avatarki-strimerov-krasivo-2.jpg',
 		time: '14:05',
 		ava: 'https://game-roblox.ru/wp-content/uploads/2020/07/unnamed-4-2.jpg',
@@ -388,8 +553,12 @@ const videoItem = [
 		user: 'Ava Johnson',
 		numberOfViews: '4 тыс',
 		releaseTime: '3 часа назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 43,
 		img: 'https://gameguru.ru/clf/3a/bb/6b/6b/articles.sodapoppin.jpg',
 		time: '20:30',
 		ava: 'https://i.pinimg.com/736x/45/98/6b/45986b577af3b3de663a07505eb5c176.jpg',
@@ -397,8 +566,12 @@ const videoItem = [
 		user: 'Henry Brown',
 		numberOfViews: '14 млн',
 		releaseTime: '2 дня назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 44,
 		img: 'https://vsrap.ru/wp-content/uploads/2020/08/bez-imeni-1-19.jpg',
 		time: '09:15',
 		ava: 'https://images.hdqwalls.com/download/anonymus-guy-4k-az-2932x2932.jpg',
@@ -406,8 +579,12 @@ const videoItem = [
 		user: 'Lily Wilson',
 		numberOfViews: '10 тыс',
 		releaseTime: 'вчера',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 45,
 		img: 'https://cdni-vm.servicecdn.ru/2020.10/original/1200_5f8d478782682c554507a227.png',
 		time: '16:40',
 		ava: 'https://hdoboi.kiev.ua/images/05.Jun.2019-paren-v-protivogaze-4k.jpg',
@@ -415,8 +592,12 @@ const videoItem = [
 		user: 'Owen Taylor',
 		numberOfViews: '8 тыс',
 		releaseTime: '5 часов назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 46,
 		img: 'https://celes.club/uploads/posts/2022-05/thumbs/1652434608_45-celes-club-p-strimer-art-krasivo-50.jpg',
 		time: '22:05',
 		ava: 'https://i.pinimg.com/originals/70/b7/a5/70b7a53129d91567390eee82fb4e7bf9.jpg',
@@ -424,8 +605,12 @@ const videoItem = [
 		user: 'Eva Davis',
 		numberOfViews: '12 млн',
 		releaseTime: '1 неделю назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 47,
 		img: 'https://i.ytimg.com/vi/-2dzp3HALPs/maxresdefault.jpg',
 		time: '11:40',
 		ava: 'https://klike.net/uploads/posts/2023-02/1675926305_3-23.jpg',
@@ -433,8 +618,12 @@ const videoItem = [
 		user: 'Gabriel Wilson',
 		numberOfViews: '7 тыс',
 		releaseTime: '3 часа назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 48,
 		img: 'https://i.ytimg.com/vi/QTkOAM6mmNs/maxresdefault.jpg',
 		time: '19:15',
 		ava: 'https://w-dog.ru/wallpapers/1/31/464217882479635/tvorchestvo-solncezashhitnye-ochki-kot.jpg',
@@ -442,8 +631,12 @@ const videoItem = [
 		user: 'Aria Miller',
 		numberOfViews: '6 тыс',
 		releaseTime: '4 часа назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 	{
+		id: 49,
 		img: 'https://kartinki.pics/uploads/posts/2022-03/1648021005_12-kartinkin-net-p-kartinki-na-strim-18.jpg',
 		time: '23:50',
 		ava: 'https://klike.net/uploads/posts/2022-08/1661867880_j-76.jpg',
@@ -451,9 +644,13 @@ const videoItem = [
 		user: 'Mia White',
 		numberOfViews: '11 млн',
 		releaseTime: '1 неделю назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
 	},
 
 	{
+		id: 50,
 		img: 'https://i.ytimg.com/vi/XK-j3xTcVbo/maxresdefault.jpg',
 		time: '01:12:54',
 		ava: 'https://klike.net/uploads/posts/2022-08/1661867880_j-76.jpg',
@@ -461,6 +658,22 @@ const videoItem = [
 		user: 'Timmi',
 		numberOfViews: '728 млн',
 		releaseTime: '12 секунд назад',
+		description:
+			'Покоряй Азерот вместе с WoW Sirus - https://sirus.cc/kargas  Dying Light 2 Stay Human показала всем геймерам Playstation 5 , Xbox Series и PC весь свой потенциал на 500 часов. Это не сложно, ведь Techland превратили зомби хоррор Даинг Лайт 2 в классическую rpg Assassins Creed от Ubisoft. Но игру определенно стоит купить по скидке или скачать бесплатно по инструкции в этом видео прохождении обзора Dying Light 2 Моя сладкая телега в комментариях.',
+		hashTag: 'Познавательно',
+	},
+	{
+		id: 51,
+		img: 'https://krasotka-tlt.ru/wp-content/uploads/4/4/8/448919ae21d03c48914eea239a2e4028.jpeg',
+		time: '03:25',
+		ava: 'https://i.pinimg.com/originals/0c/d7/3e/0cd73e1479314c13f9eb0ff416b9758a.jpg',
+		videoName: 'Бро, посмотри это видео, понравится)',
+		user: 'Шеф Драугр',
+		numberOfViews: '471',
+		releaseTime: '13 часов назад',
+		description:
+			'Игнорирование потенциальных опасностей не только увеличивает риск возникновения проблем, но также может оказаться дорогостоящим и повлечь за собой серьезные последствия для бизнеса, личного благосостояния и общества в целом. Сознательное и системное управление рисками помогает предотвращать нежелательные ситуации и способствует обеспечению стабильности и безопасности. Эффективное управление рисками начинается с их осознания и анализа, что позволяет разработать стратегии предотвращения и готовности к негативным сценариям. Этот подход не только минимизирует потенциальные угрозы, но также укрепляет резильиентность в различных сферах деятельности.',
+		hashTag: 'Познавательно',
 	},
 ]
 

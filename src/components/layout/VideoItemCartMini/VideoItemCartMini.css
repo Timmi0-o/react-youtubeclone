@@ -1,0 +1,13 @@
+.opacityHidden {
+	/* animation: opacity 1s linear; */
+	opacity: 0;
+}
+
+@keyframes opacity {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}

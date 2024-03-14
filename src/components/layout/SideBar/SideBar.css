@@ -5,3 +5,31 @@
 .scrollBarHover:hover::-webkit-scrollbar-thumb {
 	background-color: #9c9c9c; /* Цвет полосы прокрутки */
 }
+
+.sideBarMoveSlide {
+	animation: slidemove 0.3s;
+}
+
+.sideBarMoveReverseSlide {
+	animation: slidemoveReverse 0.3s;
+}
+
+@keyframes slidemove {
+	from {
+		margin-left: -200px;
+	}
+
+	to {
+		margin-left: 0px;
+	}
+}
+
+@keyframes slidemoveReverse {
+	from {
+		margin-left: -200px;
+	}
+
+	to {
+		margin-left: -400px;
+	}
+}

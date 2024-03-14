@@ -1,23 +1,18 @@
-import { useState } from 'react'
-import Header from '../../layout/Header/Header'
+import { useLayoutEffect } from 'react'
 import MainSectionVideo from '../../layout/MainSectionVideo/MainSectionVideo'
-import SideBar from '../../layout/SideBar/SideBar'
+import { videoItem } from '../../layout/VideoItemCart/VideoItemCartLink'
 
 const Home = () => {
-	const [showSideBar, setShowSideBar] = useState(false)
-	const [showModalProfile, setShowModalProfile] = useState(false)
+	useLayoutEffect(() => {
+		document.title = `(${videoItem.length}) YouTube`
+	}, [])
 
 	return (
-		<div className='Home overflow-hidden h-[100%] pb-[20px] bg-black z-[100]'>
-			<Header
-				showSideBar={showSideBar}
-				setShowSideBar={setShowSideBar}
-				showModalProfile={showModalProfile}
-				setShowModalProfile={setShowModalProfile}
-			/>
-			<SideBar showSideBar={showSideBar} />
-			<MainSectionVideo showSideBar={showSideBar} />
-		</div>
+		<>
+			<div className='flex justify-center items-start bg-black h-[100vh]'>
+				<MainSectionVideo />
+			</div>
+		</>
 	)
 }
 

@@ -1,14 +1,14 @@
 const createVideoLink = [
 	{
-		img: '/public/addVideo.svg',
+		img: '/public/svg/addVideo.svg',
 		title: 'Добавить видео',
 	},
 	{
-		img: '/public/startTranslution.svg',
+		img: '/public/svg/startTranslution.svg',
 		title: 'Начать трансляцию',
 	},
 	{
-		img: '/public/createPosr.svg',
+		img: '/public/svg/createPosr.svg',
 		title: 'Создать пост',
 	},
 ]

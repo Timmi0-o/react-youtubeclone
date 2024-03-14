@@ -1,11 +1,30 @@
+import { useState } from 'react'
 import 'react-html5video/dist/styles.css'
 import './VideoItemCart.css'
 import { videoItem } from './VideoItemCartLink'
 
 const VideoItemCart = ({ showSideBar }) => {
-	// const [imgHidden, setImgHidden] = useState(false)
+	const [photoMass, setPhotoMass] = useState([])
 
-	// console.log('showVideo', imgHidden)
+	// useEffect(() => {
+	// 	const fetch = async () => {
+	// 		const photoMass = await axios.get(
+	// 			`https://api.thecatapi.com/v1/images/search?limit=${videoItem.length}`
+	// 		)
+
+	// 		setPhotoMass(photoMass.data)
+	// 	}
+
+	// 	fetch()
+	// }, [])
+
+	// let count = 0
+	// photoMass.length &&
+	// 	photoMass.map((img) => {
+	// 		videoItem[count].img = img.url
+	// 		count++
+	// 	})
+
 	return (
 		<>
 			{videoItem.map((link, index) => (

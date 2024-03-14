@@ -55,7 +55,7 @@ const ProfileClickModal = ({ showModalProfile }) => {
 						<div className='w-[60px]'>
 							<img
 								className='size-[40px] rounded-[50%]'
-								src='/public/svg/testAvaVersion7.jpg'
+								src='https://klike.net/uploads/posts/2023-09/1694059371_2-10.jpg'
 								alt=''
 							/>
 						</div>

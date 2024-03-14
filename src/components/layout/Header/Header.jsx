@@ -139,8 +139,8 @@ const Header = ({
 												<div className='flex hover:bg-[#3b3b3b] justify-between items-center'>
 													<div className='flex items-center ml-[15px] mt-[5px]'>
 														<img
-															className='size-[18px]'
-															src='/public/svg/restartSearch.png'
+															className='size-[24px]'
+															src='/public/svg/restartSearch.svg'
 															alt=''
 														/>
 														<p
@@ -214,7 +214,7 @@ const Header = ({
 					>
 						<img
 							className='size-[32px] rounded-[50%]'
-							src='/public/svg/testAvaVersion12.jpg'
+							src='https://klike.net/uploads/posts/2023-09/1694059371_2-10.jpg'
 							alt=''
 						/>
 					</button>

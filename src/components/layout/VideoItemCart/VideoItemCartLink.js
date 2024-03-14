@@ -63,9 +63,9 @@ const videoItem = [
 		releaseTime: '2 дня назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest.jpg',
+		img: 'https://avatars.mds.yandex.net/get-ydo/3927470/2a00000177b6aab4e32c2e54d2b925038b87/diploma',
 		time: '11:46',
-		ava: '/public/testAvaVersion.jpg',
+		ava: 'https://gas-kvas.com/grafic/uploads/posts/2023-10/1696422625_gas-kvas-com-p-kartinki-na-avu-31.jpg',
 		videoName:
 			'Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar',
 		user: 'Elena Kovalenko',
@@ -73,19 +73,18 @@ const videoItem = [
 		releaseTime: '3 дня назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest2.png',
+		img: 'https://i.ytimg.com/vi/VinzXD-Ppm8/maxresdefault.jpg',
 		time: '09:21',
-		ava: '/public/testAvaVersion2.jpg',
-		videoName:
-			'Атомная батарея для «вечных» смартфонов, Торвальдс ругается, Сертификация GitHub стала общедоступной',
+		ava: 'https://coolsen.ru/wp-content/uploads/2021/06/6-4.jpg',
+		videoName: 'Типа визен про вышел, алееее',
 		user: 'Sergey Nemchinskiy',
 		numberOfViews: '2 тыс',
 		releaseTime: '18 минут назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest3.jpg',
+		img: 'https://tiniatov.ru/wp-content/uploads/9/1/5/915a8ac666dc346b3de72014ca978cfb.jpeg',
 		time: '06:58',
-		ava: '/public/testAvaVersion3.jpg',
+		ava: 'https://klike.net/uploads/posts/2022-08/1661867820_j-51.jpg',
 		videoName: 'MacBook Air на Windows от Huawei',
 		user: 'Wylsacom',
 		numberOfViews: '10 млн',
@@ -93,38 +92,35 @@ const videoItem = [
 	},
 
 	{
-		img: '/public/ObloshjkaVideoTest4.jpg',
+		img: 'https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666190553_62-mykaleidoscope-ru-p-sinii-s-zelenim-vkontakte-71.jpg',
 		time: '19:24',
-		ava: '/public/testAvaVersion4.jpg',
-		videoName:
-			'Атомная батарея для «вечных» смартфонов, Торвальдс ругается, Сертификация GitHub стала общедоступной',
-		user: 'Mikhail Kuznetsov',
+		ava: 'https://i.pinimg.com/736x/29/b3/87/29b38765f1fa2503922a40159feaec1a.jpg',
+		videoName: 'Ну типа название',
 		numberOfViews: '2 тыс',
 		releaseTime: 'вчера',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest5.jpg',
+		img: 'https://fonoteka.top/uploads/posts/2021-05/1620750299_7-phonoteka_org-p-fon-dlya-podpisi-na-forum-7.jpg',
 		time: '22:36',
-		ava: '/public/testAvaVersion5.jpg',
+		ava: 'https://cojo.ru/wp-content/uploads/2022/12/avy-dlia-patsanov-25.webp',
 		videoName: 'Это реально моя копия ютуба, шариш, меееен?',
 		user: 'Timmi',
 		numberOfViews: '100 млн',
 		releaseTime: '30 лет назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest6.jpg',
+		img: 'https://i.ytimg.com/vi/KjPeIP1MqBI/maxresdefault.jpg',
 		time: '5:21',
-		ava: '/public/testAvaVersion6.jpg',
-		videoName:
-			'Атомная батарея для «вечных» смартфонов, Торвальдс ругается, Сертификация GitHub стала общедоступной',
+		ava: 'https://img.goodfon.com/original/5616x3744/6/40/devushka-lico-ochki-oruzhie.jpg',
+		videoName: 'Корабль где-то ебнулся, тоже видел?',
 		user: 'Andrei Smirnov',
 		numberOfViews: '2 тыс',
 		releaseTime: '3 месяца назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest7.jpg',
+		img: 'https://pic.rutubelist.ru/video/9e/28/9e288ebee9a15d379101200b407181a3.jpg',
 		time: '09:53',
-		ava: '/public/testAvaVersion7.jpg',
+		ava: 'https://sneg.top/uploads/posts/2023-06/1688064834_sneg-top-p-milie-avi-dlya-patsanov-krasivo-9.jpg',
 		videoName:
 			'Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar',
 		user: 'Pavel Kozlov',
@@ -133,80 +129,71 @@ const videoItem = [
 	},
 
 	{
-		img: '/public/ObloshjkaVideoTest8.jpg',
+		img: 'https://superwalls.top/uploads/posts/2022-03/1648487304_70-gamerwall-pro-p-igrovoi-fon-dlya-prevyu-krasivie-74.jpg',
 		time: '18:14',
-		ava: '/public/testAvaVersion8.jpg',
-		videoName:
-			'Атомная батарея для «вечных» смартфонов, Торвальдс ругается, Сертификация GitHub стала общедоступной',
+		ava: 'https://cdn1.flamp.ru/08b0c74a717f0c6e42b2c17e4782d228.jpg',
+		videoName: 'Журналист проводит опрос, он это реально?',
 		user: 'Victor Ivanov',
 		numberOfViews: '2 тыс',
 		releaseTime: '14 лет назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest9.jpg',
+		img: 'https://fikiwiki.com/uploads/posts/2022-02/1644904114_37-fikiwiki-com-p-standoff-2-krasivie-kartinki-41.jpg',
 		time: '16:50',
-		ava: '/public/testAvaVersion9.jpg',
-		videoName:
-			'Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar',
+		ava: 'https://hdoboi.kiev.ua/images/05.Jun.2019-paren-v-protivogaze-4k.jpg',
+		videoName: 'Хочу в тайлааааанд',
 		user: 'Dmitry Kuznetsov',
 		numberOfViews: '10 млн',
 		releaseTime: '2 минуты назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest10.jpg',
+		img: 'https://pic.rutubelist.ru/video/eb/06/eb06892fd5605a24a557ea5e8ea0e6f8.jpg',
 		time: '22:40',
-		ava: '/public/testAvaVersion10.jpg',
-		videoName:
-			'Атомная батарея для «вечных» смартфонов, Торвальдс ругается, Сертификация GitHub стала общедоступной',
+		ava: 'http://telecomdom.com/wp-content/uploads/2020/02/foto-na-avu-v-vk-dlya-patsanov-s-litsom-2-2048x1366.jpg',
+		videoName: 'Ненавижу ютубЯ, уже устал делать',
 		user: 'Anna Ivanova',
 		numberOfViews: '2 тыс',
 		releaseTime: '4 часа назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest11.jpg',
+		img: 'https://phonoteka.org/uploads/posts/2021-03/1616682329_26-p-krasivii-fon-dlya-prevyu-32.jpg',
 		time: '15:29',
-		ava: '/public/testAvaVersion11.jpg',
-		videoName:
-			'Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar',
+		ava: 'https://i.pinimg.com/originals/12/1a/92/121a92e5f6283c89df03e50bd140704d.jpg',
+		videoName: 'Ну вот так вот',
 		user: 'MORGENSHTERN',
 		numberOfViews: '10 млн',
 		releaseTime: '12 лет назад',
 	},
 
 	{
-		img: '/public/ObloshjkaVideoTest12.jpg',
+		img: 'https://krot.info/uploads/posts/2021-02/1613650270_15-p-krasivii-fon-mainkraft-dlya-prevyu-15.jpg',
 		time: '22:40',
-		ava: '/public/testAvaVersion12.jpg',
-		videoName:
-			'Атомная батарея для «вечных» смартфонов, Торвальдс ругается, Сертификация GitHub стала общедоступной',
-		user: 'Sergey Nemchinskiy',
+		ava: 'https://a.d-cd.net/H8AAAgJgpuA-1920.jpg',
+		videoName: 'Моргенштерн надо',
 		numberOfViews: '2 тыс',
 		releaseTime: '15 сек назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest.jpg',
+		img: 'https://phonoteka.org/uploads/posts/2021-04/1618538696_12-phonoteka_org-p-krutoi-fon-dlya-prevyu-13.jpg',
 		time: '11:46',
-		ava: '/public/testAvaVersion.jpg',
-		videoName:
-			'Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar',
+		ava: 'https://0225.ru/uploads/posts/2021-01/1611396861_foto-devushek-bez-lica-sekrety-krasivyh-foto-na-avu-foto-3.jpg',
+		videoName: 'Аааааааааааааааа',
 		user: 'Elena Kovalenko',
 		numberOfViews: '10 млн',
 		releaseTime: '3 дня назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest2.png',
+		img: 'http://gamerwall.pro/uploads/posts/2022-03/1648487316_45-gamerwall-pro-p-igrovoi-fon-dlya-prevyu-krasivie-49.jpg',
 		time: '09:21',
-		ava: '/public/testAvaVersion2.jpg',
-		videoName:
-			'Атомная батарея для «вечных» смартфонов, Торвальдс ругается, Сертификация GitHub стала общедоступной',
-		user: 'Sergey Nemchinskiy',
+		ava: 'https://cdn1.flamp.ru/662b8544e49ca2c69446757c9c55ec15.jpg',
+		videoName: 'Че так много то ',
 		numberOfViews: '2 тыс',
 		releaseTime: '18 минут назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest3.jpg',
+		img: 'https://pic.rutubelist.ru/video/9b/05/9b055297c758aeae5ad51599a58bbb9c.jpg',
 		time: '06:58',
-		ava: '/public/testAvaVersion3.jpg',
+		ava: 'https://cojo.ru/wp-content/uploads/2023/01/sergei-vorontsov-moskva-2.webp',
 		videoName: 'MacBook Air на Windows от Huawei',
 		user: 'Wylsacom',
 		numberOfViews: '10 млн',
@@ -214,28 +201,27 @@ const videoItem = [
 	},
 
 	{
-		img: '/public/ObloshjkaVideoTest4.jpg',
+		img: 'https://abrakadabra.fun/uploads/posts/2022-01/1642477680_1-abrakadabra-fun-p-prevyu-mainkraft-pvp-3.jpg',
 		time: '19:24',
-		ava: '/public/testAvaVersion4.jpg',
-		videoName:
-			'Атомная батарея для «вечных» смартфонов, Торвальдс ругается, Сертификация GitHub стала общедоступной',
+		ava: 'https://mykaleidoscope.ru/uploads/posts/2022-06/1656445698_2-mykaleidoscope-ru-p-s-chernimi-volosami-devushka-krasivo-foto-3.jpg',
+		videoName: 'А, это я хз ваще как это делают люди',
 		user: 'Mikhail Kuznetsov',
 		numberOfViews: '2 тыс',
 		releaseTime: 'вчера',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest5.jpg',
+		img: 'https://i.ytimg.com/vi/C3qH4BNbf0Q/maxresdefault.jpg?7857057827',
 		time: '22:36',
-		ava: '/public/testAvaVersion5.jpg',
+		ava: 'https://telecomdom.com/wp-content/uploads/2020/02/foto-na-avu-v-vk-dlya-patsanov-s-litsom-6.jpg',
 		videoName: 'Это реально моя копия ютуба, шариш, меееен?',
 		user: 'Timmi',
 		numberOfViews: '100 млн',
 		releaseTime: '30 лет назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest6.jpg',
+		img: 'https://catherineasquithgallery.com/uploads/posts/2021-02/1612217907_123-p-fioletovii-fon-gta-170.jpg',
 		time: '5:21',
-		ava: '/public/testAvaVersion6.jpg',
+		ava: 'https://telecomdom.com/wp-content/uploads/2020/02/fto-na-avu-v-vk-dlya-devushek-bez-litsa-3.jpg',
 		videoName:
 			'Атомная батарея для «вечных» смартфонов, Торвальдс ругается, Сертификация GitHub стала общедоступной',
 		user: 'Andrei Smirnov',
@@ -243,9 +229,9 @@ const videoItem = [
 		releaseTime: '3 месяца назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest7.jpg',
+		img: 'https://million-wallpapers.ru/wallpapers/6/67/521175036214168/kartinka-parkur-na-balkon-na-tl-zaxodu-soncya.jpg',
 		time: '09:53',
-		ava: '/public/testAvaVersion7.jpg',
+		ava: 'https://fikiwiki.com/uploads/posts/2022-02/1644875114_38-fikiwiki-com-p-krasivie-kartinki-dlya-vk-na-avu-41.jpg',
 		videoName:
 			'Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar',
 		user: 'Pavel Kozlov',
@@ -254,9 +240,9 @@ const videoItem = [
 	},
 
 	{
-		img: '/public/ObloshjkaVideoTest8.jpg',
+		img: 'https://i.ytimg.com/vi/Pzgt-J67pIY/maxresdefault.jpg',
 		time: '18:14',
-		ava: '/public/testAvaVersion8.jpg',
+		ava: 'http://coolsen.ru/wp-content/uploads/2021/06/54-3.jpg',
 		videoName:
 			'Атомная батарея для «вечных» смартфонов, Торвальдс ругается, Сертификация GitHub стала общедоступной',
 		user: 'Victor Ivanov',
@@ -264,9 +250,9 @@ const videoItem = [
 		releaseTime: '14 лет назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest9.jpg',
+		img: 'https://zone64.ru/wp-content/uploads/2023/03/sa.jpeg',
 		time: '16:50',
-		ava: '/public/testAvaVersion9.jpg',
+		ava: 'https://android-obzor.com/wp-content/uploads/2022/03/zenit-foto-fotoapparat-retro-stil-plenka-devushka-ruki.jpg',
 		videoName:
 			'Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar',
 		user: 'Dmitry Kuznetsov',
@@ -274,9 +260,9 @@ const videoItem = [
 		releaseTime: '2 минуты назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest10.jpg',
+		img: 'https://kalix.club/uploads/posts/2022-12/1671719326_kalix-club-p-fon-dlya-prevyu-pabg-vkontakte-33.jpg',
 		time: '22:40',
-		ava: '/public/testAvaVersion10.jpg',
+		ava: 'https://interesnoewmire.ru/wp-content/uploads/250-foto-na-avu-dlja-devushek-0fa3bb7.jpg',
 		videoName:
 			'Атомная батарея для «вечных» смартфонов, Торвальдс ругается, Сертификация GitHub стала общедоступной',
 		user: 'Anna Ivanova',
@@ -284,9 +270,9 @@ const videoItem = [
 		releaseTime: '4 часа назад',
 	},
 	{
-		img: '/public/ObloshjkaVideoTest11.jpg',
+		img: 'https://russia-dropshipping.ru/800/600/https/sun9-19.userapi.com/CI9G2gHNrqvVuJeEqDEkVtTtPvXjjucJjJ4_IQ/J5AdFwpu4Pw.jpg',
 		time: '15:29',
-		ava: '/public/testAvaVersion11.jpg',
+		ava: 'https://gas-kvas.com/grafic/uploads/posts/2023-10/1696422623_gas-kvas-com-p-kartinki-na-avu-24.jpg',
 		videoName:
 			'Ultimate Tailwind CSS Tutorial // Build a Discord-inspired Animated Navbar',
 		user: 'MORGENSHTERN',
@@ -295,9 +281,9 @@ const videoItem = [
 	},
 
 	{
-		img: '/public/ObloshjkaVideoTest12.jpg',
+		img: 'https://kartinki.pics/uploads/posts/2021-04/thumbs/1617295507_40-p-fon-ks-go-dlya-prevyu-41.jpg',
 		time: '22:40',
-		ava: '/public/testAvaVersion12.jpg',
+		ava: 'https://klike.net/uploads/posts/2023-02/1675751418_3-20.jpg',
 		videoName:
 			'Атомная батарея для «вечных» смартфонов, Торвальдс ругается, Сертификация GitHub стала общедоступной',
 		user: 'Sergey Nemchinskiy',
@@ -468,13 +454,13 @@ const videoItem = [
 	},
 
 	{
-		img: '/public/ObloshjkaVideoTest4.jpg',
+		img: 'https://i.ytimg.com/vi/XK-j3xTcVbo/maxresdefault.jpg',
 		time: '01:12:54',
 		ava: 'https://klike.net/uploads/posts/2022-08/1661867880_j-76.jpg',
-		videoName: 'Ахуеть, хауди хуй',
+		videoName: 'Мой Ютуб, ИСТОЧНИК: поверь брат',
 		user: 'Timmi',
-		numberOfViews: '249 млн',
-		releaseTime: '2 часа назад',
+		numberOfViews: '728 млн',
+		releaseTime: '12 секунд назад',
 	},
 ]
 

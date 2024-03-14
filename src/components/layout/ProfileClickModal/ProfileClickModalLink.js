@@ -1,63 +1,66 @@
 const account = [
-	{ img: '/public/googleAcc.svg', title: 'Аккаунт Google', arrow: 'false' },
-	{ img: '/public/changeAcc.svg', title: 'Сменить аккаунт', arrow: 'true' },
-	{ img: '/public/existAcc.svg', title: 'Выйти', arrow: 'false' },
+	{ img: '/public/svg/googleAcc.svg', title: 'Аккаунт Google', arrow: 'false' },
+	{ img: '/public/svg/changeAcc.svg', title: 'Сменить аккаунт', arrow: 'true' },
+	{ img: '/public/svg/existAcc.svg', title: 'Выйти', arrow: 'false' },
 ]
 
 const creativeStudioAndPaidSubs = [
 	{
-		img: '/public/creativeStudioOnModal.svg',
+		img: '/public/svg/creativeStudioOnModal.svg',
 		title: 'Творческая студия YouTube',
 	},
-	{ img: '/public/shopsAndPaidSubs.svg', title: 'Покупки и платные подписки' },
+	{
+		img: '/public/svg/shopsAndPaidSubs.svg',
+		title: 'Покупки и платные подписки',
+	},
 ]
 
 const basicSetting = [
 	{
-		img: '/public/yourDateOnYouTube.svg',
+		img: '/public/svg/yourDareOnyYouTube.svg',
 		title: 'Ваши данные на YouTube',
 		arrow: 'false',
 	},
 	{
-		img: '/public/theme.svg',
+		img: '/public/svg/theme.svg',
 		title: 'Тема: как  на устройстве',
 		arrow: 'true',
 	},
 	{
-		img: '/public/language.svg',
+		img: '/public/svg/language.svg',
 		title: 'Язык: Русский',
 		arrow: 'true',
 	},
 	{
-		img: '/public/sucurityMode.svg',
+		img: '/public/svg/sucurityMode.svg',
 		title: 'Безопасный режим: откл.',
 		arrow: 'true',
 	},
 	{
-		img: '/public/country.svg',
+		img: '/public/svg/country.svg',
 		title: 'Страна: Россия',
 		arrow: 'true',
 	},
 	{
-		img: '/public/fastKets.svg',
+		img: '/public/svg/fastKets.svg',
 		title: 'Быстрые клавиши',
 	},
 ]
 
 const setting = [
 	{
-		img: '/public/setting.svg',
+		img: '/public/svg/setting.svg',
 		title: 'Настройки',
 	},
 ]
 
 const about = [
 	{
-		img: '/public/reference.svg',
+		img: '/public/svg/reference.svg',
 		title: 'Справка',
 	},
 	{
-		img: '/public/sendDeetBack.svg',
+		img: '/public/svg/sendDeetBack.svg',
 		title: 'Отправить отзыв',
 	},
 ]

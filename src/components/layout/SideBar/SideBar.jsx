@@ -83,7 +83,7 @@ const SideBar = ({ showSideBar }) => {
 									src={
 										unwrap
 											? '/public/svg/arrowDirectionTop.svg'
-											: '/public/svg/arrowDirectBottom.svg'
+											: '/public/svg/arrowDirectionBottom.svg'
 									}
 									alt=''
 								/>
@@ -120,7 +120,7 @@ const SideBar = ({ showSideBar }) => {
 									src={
 										subUnwrap
 											? '/public/svg/arrowDirectionTop.svg'
-											: '/public/svg/arrowDirectionBottom.svg.svg'
+											: '/public/svg/arrowDirectionBottom.svg'
 									}
 									alt=''
 								/>
